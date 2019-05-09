@@ -41,7 +41,7 @@ counter = 0
 loop do
   counter += 1
   turn(board)
-  if counter > 10
+  if counter == board
     break
   end
 end
