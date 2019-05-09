@@ -37,11 +37,12 @@ end
 
 # Define your play method below
 def play(board)
+turns = 9
 counter = 0
 loop do
   counter += 1
   turn(board)
-  if counter == board
+  if counter == turns
     break
   end
 end
