@@ -43,5 +43,6 @@ loop do
   turn(board)
   if counter > 10
     break
+  end
 end
 end
